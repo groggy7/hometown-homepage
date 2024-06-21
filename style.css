@@ -1,5 +1,57 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: Karla, serif;
+}
+
+.hero {
+    background-image: url("images/istanbul.png");
+    width: 720px;
+    height: 343px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+.hero-img {
+    width: 720px;
+    height: 343px;
+}
+
+.visit-heading {
+    width: 225px;
+    height: 42px;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #1D3557;
+    font-family: Arial;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-heading {
+    width: 400px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 30px;
+    border-radius: 10px;
+    background-color: #457B9D;
+    color: #FFFFFF;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
