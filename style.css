@@ -69,6 +69,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
+
 }
 
 .activity-header {
@@ -89,4 +90,52 @@ body {
 .activity-box {
     width: 198px;
     height: 226px;
+}
+
+.guide {
+    width: inherit;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 400px;
+    background: #A8DADC;
+    border-radius: 10px;
+    box-shadow: 0 6px #1D3557;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.your-guide {
+    margin-bottom: 14px;
+    font-size: 24px;
+    color: #1D3557;
+}
+
+.profile-photo {
+    width: 180px;
+}
+
+.myself {
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 0;
+    color: #1D3557;
+}
+
+.name {
+    font-weight: bolder;
+    color: #1D3557;
+    font-size: 16px;
 }
